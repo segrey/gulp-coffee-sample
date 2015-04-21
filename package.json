@@ -1,0 +1,36 @@
+{
+  "name": "sample-gulpfile.coffee",
+  "description": "Example of Gulpfile.coffee: CoffeeScript, coffeelint, karma, require.js build",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "gulp",
+    "test": "gulp test",
+    "build": "gulp build"
+  },
+  "repository": {},
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "*",
+    "gulp": "*",
+    "gulp-coffee": "*",
+    "gulp-coffeelint": "*",
+    "gulp-compass": "*",
+    "gulp-connect": "*",
+    "gulp-requirejs": "*",
+    "gulp-cached": "*",
+    "gulp-clean": "*",
+    "run-sequence": "*",
+    "karma": "*",
+    "karma-chrome-launcher": "*",
+    "karma-script-launcher": "*",
+    "karma-firefox-launcher": "*",
+    "karma-phantomjs-launcher": "*",
+    "mocha": "*",
+    "karma-mocha": "*",
+    "chai": "*",
+    "karma-chai": "*",
+    "requirejs": "*"
+  },
+  "private": true
+}
